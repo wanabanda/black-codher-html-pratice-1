@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300;1,400&family=Yanone+Kaffeesatz&display=swap');
+
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+@media(min-width: 430px){
+    h1{
+        font-size:20px;
+    }
+    body{
+        font-size:14px;
+        background-color:#3d3b8e;
+        color:#fff;
+    }
+}
+
+@media(min-width: 600px){
+    h1{
+        font-size:50px;
+    }
+    body{
+        font-size:26px;
+        background-color: #B0E298;
+        color: #000;
+    }
+
+}
